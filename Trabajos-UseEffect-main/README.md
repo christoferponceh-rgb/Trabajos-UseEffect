@@ -50,18 +50,6 @@ public/
 └── index.html
 ```
 
-## 💡 Conceptos Clave
-
-### useEffect
-- ✅ Siempre piensa en la limpieza (return)
-- ✅ Usa las dependencias para evitar bucles infinitos
-- ✅ No pongas lógica que pueda renderizar directamente en el render
-
-### React Router
-- ✅ Usa `<Link>` para navegación, no `<a>`
-- ✅ `useParams` para leer parámetros de la URL
-- ✅ Rutas anidadas con `Outlet` para layouts reutilizables
-
 ## 🛠️ Tecnologías Utilizadas
 
 - React 18
